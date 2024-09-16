@@ -1,0 +1,52 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(59, 56, 56);
+}
+
+mat-card {
+  background-color: rgb(59, 56, 56);
+  box-shadow: none;
+}
+
+mat-card-content {
+  margin-left: 50px;
+  padding: auto;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+mat-card-content:hover {
+  background-color: rgb(150, 146, 146);
+}
+
+mat-card-content a {
+  color: rgb(59, 56, 56);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+img {
+  width: 50px;
+  margin-right: -15px;
+}
+
+
+button {
+  background-color: lightgray;
+  color: rgb(59, 56, 56);
+  border-radius: 60px;
+  margin-right: 50px;
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: rgb(150, 146, 146);
+}

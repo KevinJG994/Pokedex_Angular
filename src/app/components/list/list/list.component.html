@@ -1,0 +1,9 @@
+<div class="container" (click)="onPokemonClick()">
+  <mat-card class="list-group" >
+    <img mat-card-image src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{id}}.png'
+      class="list-group-item d-flex justify-content-between align-items-center">
+    <mat-card-header id="numeroPokemon" *ngIf="data">No. {{id}}</mat-card-header>
+    <mat-card-header id="nombrePokemon" *ngIf="data">{{data.name | titlecase}}</mat-card-header>
+  </mat-card>
+
+</div>

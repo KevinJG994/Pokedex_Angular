@@ -1,0 +1,29 @@
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.imagenContent {
+  margin-left: 350px;
+}
+
+
+.listContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.list {
+  width: 700px;
+}
+
+.imagenPokemon {
+  width: 950px;
+}

@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+<div class="mainContent">
+  <div class="imagenContent">
+    <app-image-pokemon [id]="selectedPokemonId" class="imagenPokemon"></app-image-pokemon>
+  </div>
+  <div class="listContent" (scroll)="onScroll($event)">
+    <app-list
+      class="list"
+      *ngFor="let pokemon of listaPokemon"
+      [data]="pokemon"
+      (pokemonSelected)="onPokemonSelected($event)">
+    </app-list>
+  </div>
+</div>
+
+<app-footer></app-footer>
