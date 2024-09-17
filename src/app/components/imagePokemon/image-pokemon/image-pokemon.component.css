@@ -1,7 +1,11 @@
 img {
-  width: 400%;
-  border: 2px black solid;
+
   filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.8));
+}
+.infoContainer{
+  width: 600px;
+  border: 2px black solid;
+
   background-color: white;
   border: rgb(199, 77, 77) 25px solid;
 }

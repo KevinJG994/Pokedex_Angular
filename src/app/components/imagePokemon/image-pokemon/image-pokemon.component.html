@@ -1,3 +1,7 @@
-<mat-card *ngIf="id">
+<mat-card *ngIf="id" class="infoContainer">
   <img mat-card-image [src]="'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/' + id + '.png'" alt="Pokemon Image">
+  <mat-card-content>
+    <p><strong>Tipos:</strong> {{ types.join(', ') }}</p>
+    <p><strong>Descripción:</strong> {{ description }}</p>
+  </mat-card-content>
 </mat-card>

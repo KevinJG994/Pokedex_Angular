@@ -30,7 +30,7 @@ export class PokemonService {
     try {
       const res = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
       const resJson = await res.json();
-      const description = resJson.flavor_text_entries.find((entry: any) => entry.language.name === 'en');
+      const description = resJson.flavor_text_entries.find((entry: any) => entry.language.name === 'es');
       return description ? description.flavor_text : 'No description available';
     } catch (error) {
       console.error('Error fetching Pokémon description:', error);

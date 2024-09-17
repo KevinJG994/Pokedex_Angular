@@ -5,7 +5,6 @@ import { MatCardModule } from '@angular/material/card';
 import { HeaderComponent } from './header/header/header.component';
 import { FooterComponent } from './footer/footer/footer.component';
 import { ListComponent } from './list/list/list.component';
-import { InfoPokemonComponent } from './infoPokemon/info-pokemon/info-pokemon.component';
 import { ImagePokemonComponent } from './imagePokemon/image-pokemon/image-pokemon.component';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -16,7 +15,6 @@ import { BrowserModule } from '@angular/platform-browser';
     HeaderComponent,
     FooterComponent,
     ListComponent,
-    InfoPokemonComponent,
     ImagePokemonComponent
   ],
   imports: [
@@ -29,7 +27,6 @@ import { BrowserModule } from '@angular/platform-browser';
     HeaderComponent,
     FooterComponent,
     ListComponent,
-    InfoPokemonComponent,
     ImagePokemonComponent,
   ]
 })

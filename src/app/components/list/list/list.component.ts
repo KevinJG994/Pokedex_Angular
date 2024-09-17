@@ -27,7 +27,6 @@ export class ListComponent implements OnChanges {
     }
   }
 
-
   onPokemonClick() {
     this.pokemonSelected.emit(this.id);
   }
